@@ -1,0 +1,136 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+/*HEADER LIST ITEMS STYLE*/
+
+.menu li{
+	padding: 0 5%;
+	line-height: 40px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+body sector.works div.container div div:nth-child(odd) div.works-example{
+	float: right;
+	margin: 15px 0;
+}
+
+.skills_line{
+	padding-left: 10%;
+}
+
+#top-menu{									/*BLOCK WITH HEADER UL*/
+	background-color: #f04949;
+	padding: 0;
+	border: none;
+}
+
+/*HEADER UL STYLE*/
+
+.menu li{
+	display: block;
+	padding: 0 60px;
+	background-color: #f04949;
+}
+
+.menu li a{
+	display: block;
+}
+
+.menu li:hover{
+	background-color: white;
+}
+
+.menu li:hover a{
+	color: black;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.works-example{
+	height: 150px;
+	width: 140px;
+	border-radius: 6px;
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+.PS{
+display: none;
+}
+
+/*GIT*/
+.Git{
+display: none;
+}
+/*JS*/
+.JS{
+display: none;
+}
+/*HTML*/
+.HTML{
+display: none;
+}
+/*CSS*/
+.CSS{
+display: none;
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+.port-img{
+	float: right;
+}
+
+
+.profile{
+	padding-top: 180px; 
+}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

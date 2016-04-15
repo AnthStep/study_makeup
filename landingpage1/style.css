@@ -1,0 +1,442 @@
+body{
+	margin: 0;
+}
+#global{
+	height: 3185px;
+	width: 1280px;
+	background-color: #f5f5f5;
+	margin:0 auto;
+	padding: 0;
+}
+#header{
+	background-color: #445162;
+	height: 223px;
+	width: 1180px;
+	padding: 50px;
+
+}
+
+#header h1{
+	margin-left: -4px;
+	margin-top: -12.5px;
+	margin-bottom: -12.5px;
+	font: normal 60px Arial;
+	color: #ffffff;
+}
+
+#header ul{
+	list-style-image: url(check_icon.png);
+	font: normal 20px Arial;
+	color: #ffffff;
+	margin: 0;
+	margin-top: 35px;
+	margin-left: -8px;
+	line-height: 36px;
+}
+
+
+#headerimg{
+	width: 470px;
+	height: 214.5px;
+	float: right;
+	background: url(headerimh.png) no-repeat center;
+	background-size: 470px 214.5px;
+}
+
+#aboutus{
+	height: 244px;
+	width: 1180px;
+	padding: 50px;
+	background-color: white;
+}
+
+#aboutus h2{
+	font: normal 30px Arial;
+	color: #445161;
+	margin: 0px;
+	margin-top: -6px;
+	margin-bottom: 30px;
+
+}
+
+#aboutus p{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font: normal 16px Arial;
+	color: 333333;
+	line-height: 24px;
+	width: 665px;
+}
+
+iframe{
+	height: 245px;
+	width: 430px;
+	float: right;
+	display: none;
+	display: block;
+	src: "https://www.youtube.com/embed/_aAA9-edO3I";
+
+}
+
+/*new block-----------------------------------------------------------------------------pluses--------------------------*/
+
+#pluses{
+	height: 318px;
+	width: 1180px;
+	padding: 50px;
+	position: relative;
+}
+
+#pluses h2{
+	font: normal 30px Arial;
+	color: #445161;
+	margin: 0px;
+	margin-top: -6px;
+	margin-bottom: 29px;
+}
+
+#ritem{
+	position: absolute;
+	width: 590px;
+	left: 50px;
+	top: 107px;
+}
+
+#litem{
+	position: absolute;
+	width: 590px;
+	left: 640px;
+	top: 107px;
+}
+
+#pluses p{
+	display: line;
+	font: normal 16px Arial;
+	color: #333333;
+	line-height: 24px;
+	margin-top: -6px;
+	padding-left: 43px;
+	margin-bottom: 32px;
+	background: url('pluses.png') no-repeat 0px 6px;
+}
+
+/*new block--------------------------------------------------------------------------screenshots----------------------------*/
+
+#scrshots{
+	height: 387px;
+	background-color: white;
+	padding: 50px;
+	width: 1180px;
+}
+
+#scrshots h2{
+	font: normal 30px Arial;
+	color: #445161;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 35px;
+	line-height: 23px;
+}
+
+#scrshots h3{
+	font: normal 24px Arial;
+	color: #445161;
+	line-height: 18px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#scrshots div{
+	height: 180px;
+	width: 590px;
+	float: left;
+}
+
+#scrshots img{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin: 0;
+	margin-right: 16px;
+	background-color: #445161;
+}
+
+#scrshots p{
+	margin: 0px;
+	margin-top: -6px;
+	font: normal 16px Arial;
+	color: #333333;
+	line-height: 24px;
+}
+
+/*new block --------------------------------------------------------------------------------------------Revives----------------------*/
+
+
+#revives{
+	height: 324px;
+	width: 1180px;
+	padding: 50px;
+}
+
+#revives h2{
+	font: normal 30px Arial;
+	color: #445161;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 35px;
+	line-height: 23px;
+}
+
+#revives div{
+	position: relative;
+	height: 123px;
+	width: 590px;
+	float: left;
+	margin-bottom: 24px;
+}
+
+#revives div #circle{
+	width: 76px;
+	height: 76px;
+	border-radius: 38px;
+	background-color: #445161;
+	float: left;
+	margin-right: 16px;
+}
+
+#revives div #triangle-left{
+	top: 26.5px;
+	width: 0;
+	height: 0;
+	border-top: 11.5px solid transparent;
+	border-right: 12px solid #ebebeb;
+	border-bottom: 11.5px solid transparent;
+}
+
+#revives div #quoteblock{
+	background-color: #ebebeb;
+	border-radius: 5px;
+	padding: 15px;
+	padding-top: 11px;
+	width: 441px;
+	height: 92px;
+}
+
+blockquote{
+	font: italic 14px Arial;
+	color: #333333;
+	margin: 0px;
+	margin-top: 0px;
+	line-height: 18px;
+}
+
+cite{
+	font: normal 14px Arial;
+	color: #989898;
+	margin: 0px;
+	margin-top: 11px;
+	line-height: 11px;
+	display: inline-block;
+}
+
+
+/*newblock----------------------------------------------------------------------BUY IT NOW----------------------------*/
+
+#buyitnow{
+	height: 555px;
+	width: 1180px;
+	padding: 50px;
+	position: relative;
+	background-color: white;
+}
+
+	#buyitnow h2{
+		font: normal 30px Arial;
+		color: #445161;
+		margin: 0px;
+		margin-top: 0px;
+		margin-bottom: 33px;
+		line-height: 23px;
+	}
+
+	#smallb, #mediumb, #largeb{
+		width: 300px;
+		background-color: #445162;
+		border-radius: 5px;
+		vertical-align: bottom;
+		display: inline-block;
+	}
+
+	#smallb{
+		/*height: 306px;*/
+		margin-left: 95px;
+	}
+
+	#mediumb{
+		/*height: 404px;*/
+		margin: 0 45px;
+	}
+
+	#largeb{
+		/*height: 499px;*/
+	}
+
+		#buyitnow h3{
+			font: normal 24px Arial;
+			text-align: center;
+			color: white;
+			line-height: 17px;
+			margin-top: 17px;
+			margin-bottom: 19px;
+		}
+
+		.price{
+			width: 296px;
+			background-color: white;
+			margin: 0 auto;
+			margin-top:;
+			height: 45px;
+			line-height: 68px;
+			font: normal 40px Arial;
+			color: #445162;
+			text-align: center;
+			vertical-align: middle;
+			padding: 11px 0;
+
+		}
+
+		#buyitnow li{
+			color: white;
+			font: normal 14px Arial;
+			line-height: 10px;
+		}
+		#buyitnow li:not(:last-child){
+			padding-bottom: 14px;
+		}
+
+		#buyitnow ol{
+			padding-left: 36px;
+			margin-top: 22px;
+			margin-bottom: 22px;
+		}
+
+		.buttonbuy{
+			width: 260px;
+			background-color: white;
+			margin: 0 auto;
+			margin-top: 22px;
+			margin-bottom: 17px;
+			height: 40px;
+			font: bold 18px Arial;
+			line-height: 40px;
+			color: #445162;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 5px;
+		}
+
+/*newblock---------------------------------------------------------------------------------contacts------------------------------*/
+
+
+#contacts{
+	background-color: #445162;
+	width: 1180px;
+	padding: 50px;
+	height: 408px;
+	position: relative;
+}
+
+	#contacts h2{
+		font: normal 30px Arial;
+		line-height: 22px;
+		text-align: center;
+		color: white;
+		margin: 0;
+	}
+
+	#forms{
+		position: absolute;
+		width: 500px;
+		height: 354px;
+		margin: 0;
+		padding: 0;
+		left: 249px;
+		top: 105.5px;
+	}
+
+	input[type="text"],input[type="email"],#message{
+		background-color: #ffffff !important;
+		outline: none;
+		width: 480px;
+		border-radius: 5px;
+		border: none;
+		font: normal 16px Arial;
+		color: #445162;
+		line-height: 40px;
+		padding: 0 10px;
+	}
+
+	#forms input{
+		margin-bottom: 21px;
+	}
+
+	#message{
+		height: 170px;
+		resize: none;
+	}
+
+	::-webkit-input-placeholder{
+		color: #445162;
+	}
+
+	#icons{
+		position: absolute;
+		top: 105.5px;
+		left: 795px;
+	}
+
+	#contacts span{
+		display: block;
+		font: normal 16px Arial;
+		color: #ffffff;
+		margin-bottom: 19px;
+		line-height: 26px;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		overflow: visible;
+		padding-left: 30px;
+	}
+
+	#icons span:nth-child(1){
+		background-image: url(skype.png)
+	}
+	#icons span:nth-child(2){
+		background-image: url(icq.png);
+	}
+	#icons span:nth-child(3){
+		background-image: url(mail.png);
+	}
+	#icons span:nth-child(4){
+		background-image: url(phone.png);
+	}
+
+	#contacts img{
+		margin-top: 13px;
+		overflow: visible;
+	}
+
+	#copyr{
+		height:26px;
+		vertical-align: middle;
+		text-align: center;
+		background-color: #ffffff;
+	}
+
+	#copyr p{
+		font: normal 12px Arial;
+		color: #445162;
+		line-height: 26px;
+		margin:0;
+	}
+
+
